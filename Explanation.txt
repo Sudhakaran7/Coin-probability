@@ -1,0 +1,56 @@
+You have some coins.  The i-th coin has a probability prob[i] of facing heads when tossed.
+Return the probability that the number of coins facing heads equals target if you toss every coin exactly once.
+Constraint:The target should be less than the size of probability array.
+
+Input Description:
+First line contains, n and target, n isthe size of the array and target
+Second line contains, n elements of probabilities in a array.
+(1<n<1000), (1<target<=n), (0<pro[i]<=1)
+
+Output Description:
+Print the probability that the number of coins facing heads equals target if you toss every coin exactly once.
+
+Sample Input:
+4 2
+0.5 0.6 0.4 0.3
+
+Sample Output:
+0.37999999999999995
+
+Explanation:
+From the given prob[i] array, if we calculate the probabilities, we get 0.37999999999999995
+
+Sample Input:
+3 0
+0.9 1 0.8
+
+Sample Output:
+0.0
+
+Sample Input:
+3 1
+0.7 0.8 0.6
+
+Sample Output:
+0.18800000000000003
+
+Sample Input:
+4 2
+0.1 0.3 0.23 0.4
+
+Sample Output:
+0.22346000000000005
+
+Sample Input:
+5 0
+0.5 0.5 0.5 0.5 0.5
+
+Sample Output:
+0.03125
+
+Sample Input:
+9 5
+0.9 0.8 0.7 0.6 0.5 0.4 0.3 0.2 0.1
+
+Sample Output:
+0.28468032
